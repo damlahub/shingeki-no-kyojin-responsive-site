@@ -1,0 +1,537 @@
+/* 
+  ##Cihaz = Tabletler, Ipad (portrait/dikey modda)
+  ##Ekran = 768px to 1024px Arası Ekranlar
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .single-slider-top {
+        flex-direction: column;
+        align-items: center;
+        height: 150px;
+    }
+
+    .header-logo {
+        order: -1;
+    }
+
+    .header-menu ul li:first-child,
+    .header-menu ul li:hover,
+    .header-menu ul li {
+        border-top: none;
+    }
+
+    .header-menu ul li {
+        padding: 0;
+    }
+
+    .header-social {
+        width: 100%;
+        justify-content: center;
+        order: 3;
+    }
+
+    .swiper {
+        height: 125%;
+    }
+
+    #cards-content .card {
+        z-index: 99;
+    }
+
+    .favorite-characters-card-bottom {
+        height: 80px;
+    }
+
+    .favorite-characters-card {
+        margin: 0 5px;
+    }
+
+    .favorite-characters-card-bottom h2 {
+        font-size: 16px;
+    }
+
+    .mySwiper1 p {
+        font-size: 12px;
+    }
+
+    #latest-news {
+        height: 75vh;
+        justify-content: start;
+    }
+
+    #latest-news h2,
+    #latest-news p {
+        margin-bottom: 20px;
+    }
+
+    .latest-news-card img {
+        height: 220px;
+    }
+
+    .latest-news-card h5 {
+        font-size: 14px;
+    }
+
+    .latest-news-card p {
+        font-size: 12px;
+    }
+
+    .latest-news-card a {
+        font-size: 10px;
+    }
+
+    .news-card-infos {
+        justify-content: space-between;
+        font-size: 10px;
+    }
+
+    #last-social-media {
+        height: 35vh;
+    }
+}
+
+/* 
+    ##Cihaz = Tabletler, Ipad (landscape/yatay modda)
+    ##Ekran = 768px to 1024px Arası Ekranlar
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .single-slider-top {
+        flex-direction: column;
+        align-items: center;
+        height: 150px;
+    }
+
+    .header-logo {
+        order: -1;
+    }
+
+    .header-menu ul li:first-child,
+    .header-menu ul li:hover,
+    .header-menu ul li {
+        border-top: none;
+    }
+
+    .header-menu ul li {
+        padding: 0;
+    }
+
+    .header-social {
+        width: 100%;
+        justify-content: center;
+        order: 3;
+    }
+
+    .swiper {
+        height: 125%;
+    }
+
+    #cards-content .card {
+        z-index: 99;
+    }
+
+    .favorite-characters-card-bottom {
+        height: 80px;
+    }
+
+    .favorite-characters-card {
+        margin: 0 5px;
+    }
+
+    .favorite-characters-card-bottom h2 {
+        font-size: 16px;
+    }
+
+    .mySwiper1 p {
+        font-size: 12px;
+    }
+
+    #latest-news {
+        height: 75vh;
+        justify-content: start;
+    }
+
+    #latest-news h2,
+    #latest-news p {
+        margin-bottom: 20px;
+    }
+
+    .latest-news-card img {
+        height: 220px;
+    }
+
+    .latest-news-card h5 {
+        font-size: 14px;
+    }
+
+    .latest-news-card p {
+        font-size: 12px;
+    }
+
+    .latest-news-card a {
+        font-size: 10px;
+    }
+
+    .news-card-infos {
+        justify-content: space-between;
+        font-size: 10px;
+    }
+
+    #last-social-media {
+        height: 35vh;
+    }
+}
+
+/* 
+    ##Cihaz = Düşük Çözünürlüklü Tablet ve Mobil Ekranlar (Landscape / Yatay Modda)
+    ##Ekran = 481px to 767px Arası Ekranlar
+  */
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .single-slider-top {
+        flex-direction: column;
+        align-items: center;
+        height: 150px;
+    }
+
+    .header-logo {
+        width: 100%;
+        order: -1;
+    }
+
+    .header-menu {
+        width: 100%;
+    }
+
+    .header-menu ul li:first-child,
+    .header-menu ul li:hover,
+    .header-menu ul li {
+        border-top: none;
+        font-size: 12px;
+    }
+
+    .header-menu ul li {
+        padding: 0;
+    }
+
+    .header-social {
+        width: 100%;
+        justify-content: center;
+        order: 3;
+    }
+
+    .swiper {
+        height: 125%;
+    }
+
+    .content-end {
+        align-items: center;
+        text-align: center;
+    }
+
+    .content-end h4 {
+        width: 90%;
+    }
+
+    .content-end h4,
+    .content-end h1,
+    .content-end .transparent-button {
+        margin-right: 0;
+    }
+
+    .content-start {
+        width: 90%;
+        align-items: center;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .swiper-slide-content {
+        align-items: center;
+    }
+
+    .swiper-slide-content h1 {
+        font-size: 30px;
+        line-height: 55px
+    }
+
+    .swiper-slide-content h4 {
+        font-size: 22px;
+    }
+
+    #cards-content .card {
+        z-index: 99;
+    }
+
+    .card-info {
+        font-size: 20px;
+
+    }
+
+    #favorite-characters {
+        height: 110vh;
+    }
+
+    #favorite-characters p {
+        font-size: 14px;
+        width: 100%;
+    }
+
+    #favorite-characters h2 {
+        font-size: 20px;
+    }
+
+    .favorite-characters-cards {
+        height: 80%;
+        flex-wrap: wrap;
+    }
+
+    .favorite-characters-card {
+        width: 49%;
+        margin: 0;
+    }
+
+    .favorite-characters-card-top img {
+        width: 100%;
+        height: 227px;
+    }
+
+    .favorite-characters-card-top h2 {
+        padding: 5px 13px;
+    }
+
+    .favorite-characters-card-bottom {
+        width: 100%;
+        height: 64px;
+    }
+
+    .favorite-characters-card-bottom h2 {
+        text-align: center;
+        font-size: 22px;
+        padding-top: 20px;
+    }
+
+    #new-season p {
+        width: 90%;
+    }
+
+    .counter-item h1 {
+        font-size: 55px;
+    }
+
+    .counter-item h3 {
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .mySwiper1 p {
+        font-size: 12px;
+    }
+
+    #latest-news {
+        height: 100vh;
+        justify-content: start;
+        padding: 40px 0;
+    }
+
+    .latest-news-card {
+        width: 30%;
+        height: 450px;
+    }
+
+    #latest-news h2 {
+        font-weight: 20px;
+    }
+
+    #latest-news h2,
+    #latest-news p {
+        width: 100%;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .latest-news-card img {
+        height: 200px;
+    }
+
+    .latest-news-card h5 {
+        font-size: 12px;
+    }
+
+    .latest-news-card p {
+        font-size: 10px;
+    }
+
+    .latest-news-card a {
+        font-size: 8px;
+    }
+
+    .news-card-infos {
+        justify-content: space-between;
+        font-size: 8px;
+    }
+
+    #last-social-media {
+        height: 35vh;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+}
+
+/* 
+    ##Cihaz = En Çok Tercih Edilen Mobil Boyutlar (Portrait/Dikey Modda)
+    ##Ekran = 320px to 479px Arası Ekranlar
+  */
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .single-slider-top {
+        flex-direction: column;
+        align-items: center;
+        height: 150px;
+    }
+
+    .header-logo {
+        width: 100%;
+        order: -1;
+    }
+
+    .header-menu {
+        width: 100%;
+    }
+
+    .header-menu ul li:first-child,
+    .header-menu ul li:hover,
+    .header-menu ul li {
+        border-top: none;
+        font-size: 12px;
+    }
+
+    .header-menu ul li {
+        padding: 0;
+    }
+
+    .header-social {
+        width: 100%;
+        justify-content: center;
+        order: 3;
+    }
+
+    .swiper {
+        height: 125%;
+    }
+
+    .content-end {
+        align-items: center;
+        text-align: center;
+    }
+
+    .content-end h4 {
+        width: 90%;
+    }
+
+    .content-end h4,
+    .content-end h1,
+    .content-end .transparent-button {
+        margin-right: 0;
+    }
+
+    .content-start {
+        width: 90%;
+        align-items: center;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .swiper-slide-content {
+        align-items: center;
+    }
+
+    .swiper-slide-content h1 {
+        font-size: 30px;
+        line-height: 55px
+    }
+
+    .swiper-slide-content h4 {
+        font-size: 22px;
+    }
+
+    #cards-content .card {
+        z-index: 99;
+    }
+
+    .card-info {
+        font-size: 20px;
+
+    }
+
+    #favorite-characters {
+        height: 110vh;
+    }
+
+    #favorite-characters p {
+        font-size: 14px;
+        width: 100%;
+    }
+
+    #favorite-characters h2 {
+        font-size: 20px;
+    }
+
+    .favorite-characters-cards {
+        flex-wrap: wrap;
+    }
+    .favorite-characters-card {
+        width: 49%;
+        margin: 0;
+    }
+
+    .favorite-characters-card-top h2 {
+        padding: 5px 13px;
+    }
+    .favorite-characters-card-bottom h2 {
+        text-align: center;
+        font-size: 14px !important; 
+    padding-top: 10px;
+    }
+    .favorite-characters-card-top {
+        height: 85% !important;
+    }
+    .favorite-characters-card-bottom {
+        height: 15% !important;
+    }
+
+    #new-season p {
+        width: 90%;
+    }
+
+    .counter-item h1 {
+        font-size: 35px;
+    }
+
+    .counter-item h3 {
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    .mySwiper1 p {
+        font-size: 12px;
+    }
+
+    #latest-news {
+        display: none;
+    }
+
+    #last-social-media {
+    height: 174px;
+    height: 30vh;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+    .mySwiper1{
+        width: 100% !important;
+      }
+}

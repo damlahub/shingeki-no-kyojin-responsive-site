@@ -1,0 +1,100 @@
+.swiper {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.swiper-slide-content{
+    position: absolute;
+}
+.swiper-button-next{
+  color: white !important;
+  padding: 35px;
+  border-radius: 100%;
+
+}
+.swiper-button-prev{
+  color: white !important;
+  padding: 35px;
+  border-radius: 100%;
+}
+.swiper-slide-content{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+}
+.content-center{
+  align-items: center;
+}
+.content-start{
+  width: 45%;
+  align-items: start;
+  margin-left: 100px;
+  text-align: start;
+}
+.content-end{
+  align-items: end;
+  text-align: end;
+}
+.content-end h4{
+  width: 45%;
+}
+.content-end h4,
+.content-end h1,
+.content-end .transparent-button{
+  margin-right:100px;
+}
+.swiper-slide-content h1{
+  font-size: 60px;
+  line-height: 72px
+}
+.swiper-slide-content h4{
+  font-size: 24px;
+  line-height: 35px;
+  font-weight: 400;
+}
+.swiper-slide-content button{
+  margin: 30px 10px;
+}
+.mySwiper1{
+  margin-top: 25px;
+  width: 80% !important;
+  height: 60% !important;
+  border-radius: 35px;
+}
+.mySwiper1 .swiper-slide{
+  background-color: transparent;
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 30px;
+}
+.mySwiper1 .swiper-slide img{
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+}
+.swiper-pagination-bullet{
+  background-color: white !important;
+}

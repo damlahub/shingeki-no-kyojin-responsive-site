@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background-color: black;
+}
+h2{
+    font-size: 36px;
+}
+.standart-button{
+    width: 165px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    border: none;
+    box-shadow: 0px 5px 10px 5px black ;
+    font-size: 16px;
+    transition: all .5s ease ;
+}
+.standart-button:hover{
+    background-color: white;
+    color: black;
+}
+.transparent-button{
+    width: 165px;
+    height: 35px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    box-shadow: 0px 5px 10px 5px black ;
+    font-size: 16px;
+    transition: all .5s ease ;
+}
+.transparent-button:hover{
+    background-color: black;
+}
+
+#single-slider{
+    width: 100%;
+    height: 90vh;
+    position: relative;
+}
+.single-slider-top{
+    position: absolute;
+    z-index: 99;
+    width: 100%;
+    height: 75px;
+    background-color: rgba(0, 0, 0, 0.482);
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.header-logo{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-logo img{
+    width: 35px;
+    margin-right: 10px;
+}
+.header-logo h1{
+    font-weight: 300;
+    letter-spacing: 2px;
+    color: white;
+}
+.header-logo a{
+    text-decoration: none;
+}
+.header-menu{
+    width: 50%;
+}
+.header-menu ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.header-menu ul li{
+    list-style: none;
+    display: block;
+    padding: 27px;
+    border-top: 5px solid transparent;
+    transition: all 1s ease;
+}
+.header-menu ul li:hover{
+    border-top: 5px solid white;
+}
+.header-menu ul li a{
+    text-decoration: none;
+    color: white;
+    transition: all 1s ease;
+    font-weight: 300;
+}
+.header-menu ul li a:hover{
+    color: gold;
+}
+.header-menu ul li:first-child{
+    border-top: 5px solid white;
+}
+.active{
+    color: gold !important;
+}
+.header-social{
+    width: 25%;
+    display: flex;
+
+}
+.header-social a{margin-left: 10px;}
+
+#cards-content{
+    width: 100%;
+    height: 320px;
+}
+.cards{
+    width: 100%;
+    display: flex;
+}
+.card{
+    width: 33.3%;
+    height: 320px;
+    position: relative;
+    overflow: hidden;
+}
+.card-info{
+    border: 1px solid white;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 24px;
+    background-color: transparent;
+    padding: 20px;
+}
+.card img{
+    position: absolute;
+    height: 320px;
+    width: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+.card img:hover{
+    transform: scale(1.2);
+}
+#favorite-characters{
+    width: 100%;
+    height: 85vh;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 50%, rgba(255, 255, 255, 0.032) 50%);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 50px;
+}
+#favorite-characters p{
+    width: 45%;
+    text-align: center;
+}
+.favorite-characters-cards{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.favorite-characters-card{
+    width: 20%;
+    height: 250px;
+    margin: 0 30px;
+}
+.favorite-characters-card-top{
+    width: 100%;
+    height: 95%;
+    position: relative;
+}
+.favorite-characters-card-top:hover::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 1;
+}
+.favorite-characters-card-top img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+.favorite-characters-card-top h2{
+    position: absolute;
+    background-color: #ee3535;
+    padding: 10px 25px;
+    border-radius: 50%;
+    top: 5px;
+    left: 5px;
+}
+.favorite-characters-card-bottom{
+    height: 5%;
+    width: 100%;
+    height: 94px;
+    background-color: white;
+    color: black;
+    transition: all 1s ease;
+}
+.favorite-characters-card-bottom:hover{
+    background-color: black;
+    color: white;
+}
+.favorite-characters-card-bottom h2{
+    text-align: center;
+    font-size: 26px;
+    padding-top: 25px;
+}
+#new-season{
+    width: 100%;
+    height: 60vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url(../assets/new-season.jpg);
+    background-position: 5px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, 0.689);
+}
+#new-season p{
+    width: 45%;
+    text-align: center;
+}
+.new-season-counter{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.counter-item{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.counter-item h1{
+    font-size: 90px;
+}
+.counter-item h3{
+    font-size: 24px;
+    font-weight: 400;
+}
+#feedbacks{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.feedbacks-content{
+    width: 100%;
+    height: 90%;
+    text-align: center;
+    background-color: black;
+    padding: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#latest-news{
+    width: 100%;
+    height: 130vh;
+    background-image: url(../assets/titan-anime.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: rgb(63, 63, 63);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    padding: 80px 0;
+
+}
+#latest-news p{
+    width: 45%;
+    color: white;
+    text-align: center;
+}
+.latest-news-cards{
+    width: 100%;
+    height: 363px;
+    display: flex;
+    justify-content: center;
+}
+.latest-news-card{
+    width: 25%;
+    height: 500px;
+    border: 1px solid white;
+    padding: 20px;
+    color: white;
+    margin-left: 20px;
+    position: relative;
+    cursor: pointer;
+}
+.latest-news-card img{
+    width: 100%;
+    height: 242px;
+    object-fit: cover;
+}
+.latest-news-card:hover::before{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5); 
+        z-index: 1;
+}
+.latest-news-card h5{
+    font-size: 16px;
+    margin: 15px 0;
+}
+.latest-news-card p{
+    width: 100% !important;
+    text-align: start !important;
+    margin: 15px 0;
+}
+.latest-news-card a{
+    color: white;
+    text-decoration: none;
+}
+.news-card-infos{
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#last-social-media{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.social-media-item{
+    width: 274px;
+    height: 174px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+}
+footer{
+    width: 100%;
+    height: 80px;
+    background-image: url(../assets/ereneyes.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 5px;
+    text-align: center;
+    padding: 30px;
+    font-weight: 600;
+    color: white;
+}
+.levi-animation{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    z-index: 1000;
+}
+.levi-animation img {
+    animation: levi-animation 10s linear infinite;
+    width: 75px;
+    right: 0;
+
+}
+@keyframes levi-animation {
+    0% {
+      transform: translateX(2000%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
